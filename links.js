@@ -1,23 +1,28 @@
 export const links = [
     {
-      name: "Twitter",
-      link: "https://twitter.com/ringgarevanka/",
-      icon: "fab fa-twitter",
-    },
-    {
-      name: "Linkedin",
-      link: "https://www.linkedin.com/ringgarevanka/",
-      icon: "fab fa-linkedin",
-    },
-    {
       name: "Instagram",
       link: "https://www.instagram.com/ringgarevanka/",
       icon: "fab fa-instagram",
     },
     {
-      name: "E-mail",
-      link: "mailto:ringgarevanka+public@gmail.com",
-      icon: "fa fa-envelope",
+      name: "TikTok",
+      link: "https://www.tiktok.com/@ringgarevanka/",
+      icon: "fab fa-tiktok",
+    },
+    {
+      name: "Facebook",
+      link: "https://www.facebook.com/ringgarevanka",
+      icon: "fab fa-facebook",
+    },
+    {
+      name: "Twitter",
+      link: "https://twitter.com/ringgarevanka/",
+      icon: "fab fa-twitter",
+    },
+    {
+      name: "Discord",
+      link: "https://discordapp.com/users/1007123238985412608",
+      icon: "fab fa-discord",
     },
     {
       name: "Github",
@@ -25,8 +30,8 @@ export const links = [
       icon: "fab fa-github",
     },
     {
-      name: "Medium",
-      link: "https://medium.com/ringgarevanka",
-      icon: "fab fa-medium",
+      name: "E-Mail",
+      link: "mailto:ringgarevanka+public@gmail.com",
+      icon: "fa fa-envelope",
     },
   ];
