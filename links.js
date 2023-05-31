@@ -30,6 +30,11 @@ export const links = [
       icon: "fab fa-github",
     },
     {
+      name: "Telegram",
+      link: "https://t.me/ringgarevanka",
+      icon: "fab fa-telegram",
+    },
+    {
       name: "E-Mail",
       link: "mailto:ringgarevanka+public@gmail.com",
       icon: "fa fa-envelope",
