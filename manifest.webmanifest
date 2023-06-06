@@ -7,7 +7,7 @@
        "sizes": "1080x1080", 
        "type": "image/png" 
      }], 
-   "lang": "en", 
+   "lang": "en,id,in", 
    "start_url": "/", 
    "scope": "https://ringgarevanka.github.io/", 
    "display": "standalone", 
