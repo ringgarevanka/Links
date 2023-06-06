@@ -2,7 +2,7 @@ var cacheName = 'cache';
  var filesToCache = [ 
    '/',
    '/index.html',
-   '/link.js',
+   '/links.js',
    '/links-modules.js',
    '/style.css',
    '/script.js',
