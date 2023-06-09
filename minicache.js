@@ -3,7 +3,7 @@ var cacheName = 'cache';
    '/',
    '/index.html',
    '/index.js',
-   '/index-modules.js',
+   '/main-modules.js',
    '/style.css',
    '/script.js',
    '/minicache.js',
