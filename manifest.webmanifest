@@ -4,10 +4,10 @@
    "description": "Ringga Revanka", 
  "icons": [{ 
      "src": "https://avatars.githubusercontent.com/u/99320495", 
-       "sizes": "1080x1080", 
+       "sizes": "1080×1080", 
        "type": "image/png" 
      }], 
-   "lang": "en,id,in", 
+   "lang": "en", 
    "start_url": "/", 
    "scope": "https://ringgarevanka.github.io/", 
    "display": "standalone", 
