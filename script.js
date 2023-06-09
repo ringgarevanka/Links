@@ -4,7 +4,7 @@
   
    if ('serviceWorker' in navigator) { 
      navigator.serviceWorker 
-              .register('./cached.js') 
+              .register('./minicache.js') 
               .then(function() { console.log('Caches Service Registered (DONE)');  
                                 console.log('Page Loaded');  
      }); 
