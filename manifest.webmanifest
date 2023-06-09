@@ -1,10 +1,10 @@
 { 
-   "name": "Ringga Revanka", 
-   "short_name": "Ringga", 
-   "description": "Ringga Revanka", 
+   "name": "Ringga Revanka App", 
+   "short_name": "Ringga App", 
+   "description": "Web App (https://ringgarevanka.github.io/)", 
  "icons": [{ 
      "src": "https://avatars.githubusercontent.com/u/99320495", 
-       "sizes": "1080×1080", 
+       "sizes": "1080x1080", 
        "type": "image/png" 
      }], 
    "lang": "en", 
