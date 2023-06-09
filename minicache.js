@@ -8,9 +8,8 @@ var cacheName = 'cache';
    '/script.js',
    '/minicache.js',
    '/manifest.webmanifest',
-   /* '/LICENSE',*/
-   /* '/README.md',*/
-   
+   '/LICENSE',
+   '/README.md', 
  ]; 
   
  self.addEventListener('install', function(e) { 
