@@ -8,8 +8,8 @@ var cacheName = 'cache';
    '/script.js',
    '/cached.js',
    '/manifest.webmanifest',
-   '/LICENSE',
-   '/README.md',
+   /* '/LICENSE',*/
+   /* '/README.md',*/
    
  ]; 
   
