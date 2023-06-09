@@ -6,6 +6,7 @@
     --accentColor: #FFF;
     --font: 'Karla', sans-serif;
     --delay: .3s;
+    --bgimg: url('https://r4.wallpaperflare.com/wallpaper/817/896/30/1920x1080-px-city-lights-night-video-games-sonic-hd-art-wallpaper-b9f0680db11a9d2bc687880f0031166d.jpg')
 }
 
 body {
@@ -14,7 +15,7 @@ body {
     min-height: 100vh;
     font-family: var(--font);
     background: radial-gradient(ellipse at bottom, var(--bgColor) 0%, var(--bgColor2) 100%);
-    background-image: url('https://fondosmil.com/fondo/22272.jpg');
+    background-image: var(--bgimg);
     opacity: 0;
     animation: 1s ease-out var(--delay) 1 transitionAnimation; /* duration/timing-function/delay/iterations/name */
     animation-fill-mode: forwards;
