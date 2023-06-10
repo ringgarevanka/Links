@@ -8,7 +8,7 @@
        "type": "image/png" 
      }], 
    "lang": "en",
-   "orientation": "any",
+   "orientation": "natural",
    "start_url": "/", 
    "scope": "https://ringgarevanka.github.io/", 
    "display": "standalone", 
