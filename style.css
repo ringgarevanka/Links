@@ -17,14 +17,11 @@ body {
     animation: 1s ease-out var(--delay) 1 transitionAnimation; /* duration/timing-function/delay/iterations/name */
     animation-fill-mode: forwards;
     position: relative;
-}
-
-.background {
     background: radial-gradient(ellipse at bottom, var(--bgColor) 0%, var(--bgColor2) 100%);
     background-image: var(--bgimg);
     filter: blur(8px);
     -webkit-filter: blur(8px);
-    /* opacity: 0; */
+    opacity: 0;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
