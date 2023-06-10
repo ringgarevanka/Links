@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Quicksand:400,700&display=swap');
 
 :root {
     --bgColor: #223344;
     --bgColor2: #090a0f;
     --accentColor: #FFF;
-    --font: 'Karla', sans-serif;
+    --font1: 'Ubuntu', sans-serif;
+    --font2: 'Quicksand', sans-serif;
     --delay: .3s;
     --bgimg: url('https://r4.wallpaperflare.com/wallpaper/817/896/30/1920x1080-px-city-lights-night-video-games-sonic-hd-art-wallpaper-b9f0680db11a9d2bc687880f0031166d.jpg')
 }
@@ -13,7 +14,7 @@ body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    font-family: var(--font);
+    font-family: var(--font1);
     animation: 1s ease-out var(--delay) 1 transitionAnimation;
     animation-fill-mode: forwards;
     position: relative;
@@ -43,7 +44,7 @@ body {
     font-weight: bold;
     line-height: 1.25;
     display: block;
-    font-family: var(--font);
+    font-family: var(--font1);
     width: 100%;
     text-align: center;
     text-decoration: none;
@@ -53,9 +54,9 @@ body {
     color: var(--accentColor);
     font-size: 1rem;
     font-weight: bold;
-    line-height: 1.00;
+    line-height: 0.80;
     display: block;
-    font-family: var(--font);
+    font-family: var(--font1);
     width: 100%;
     text-align: center;
     text-decoration: none;
@@ -64,12 +65,13 @@ body {
 #description {
     color: var(--accentColor);
     font-size: 1rem;
-    line-height: 0.95;
+    line-height: 0.50;
     display: block;
-    font-family: var(--font);
+    font-family: var(--font1);
     width: 100%;
     text-align: center;
     text-decoration: none;
+    margin: 20px auto;
 }
 
 #links {
@@ -85,6 +87,7 @@ body {
     color: var(--accentColor);
     border: solid var(--accentColor) 2px;
     border-radius: 10px;
+    font-family: var(--font2);
     font-size: 1rem;
     text-align: center;
     display: block;
@@ -115,7 +118,7 @@ body {
     color: var(--accentColor);
     font-size: 1rem;
     display: block;
-    font-family: var(--font);
+    font-family: var(--font1);
     width: 100%;
     text-align: center;
 
