@@ -5,8 +5,7 @@ window.onload = () => {
       navigator.serviceWorker
          .register('./serviceWorker.js')
          .then(function () {
-            console.log('Caches Service Registered (DONE)');
-            console.log('Page Loaded');
+            console.log('Loaded');
          });
    }
 }
