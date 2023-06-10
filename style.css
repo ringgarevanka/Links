@@ -24,10 +24,12 @@ body {
     background-image: var(--bgimg);
     filter: blur(8px);
     -webkit-filter: blur(8px);
-    opacity: 0;
+    /* opacity: 0; */
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     position: relative;
+    height: 100%;
 }
 
 #profilePicture, #profilePicture img {
