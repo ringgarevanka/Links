@@ -37,11 +37,34 @@ body {
     -webkit-tap-highlight-color: transparent;
 }
 
-#userName {
+#name {
     color: var(--accentColor);
     font-size: 1rem;
     font-weight: bold;
     line-height: 1.25;
+    display: block;
+    font-family: var(--font);
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+#username {
+    color: var(--accentColor);
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.00;
+    display: block;
+    font-family: var(--font);
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+#description {
+    color: var(--accentColor);
+    font-size: 1rem;
+    line-height: 0.95;
     display: block;
     font-family: var(--font);
     width: 100%;
