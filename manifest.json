@@ -7,10 +7,17 @@
        "sizes": "1080x1080", 
        "type": "image/png" 
      }], 
-   "lang": "en", 
+   "lang": "en",
+   "orientation": "any",
    "start_url": "/", 
    "scope": "https://ringgarevanka.github.io/", 
    "display": "standalone", 
+   "display_override": [
+       "standalone",
+       "fullscreen",
+       "minimal-ui",
+       "window-controls-overlay"
+     ],
    "theme_color": "#131931", 
-   "background_color": "#0F2034" 
+   "background_color": "#0F2034"
  }
