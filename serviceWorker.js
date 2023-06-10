@@ -12,6 +12,7 @@ var cacheName = 'cache';
    '/README.md', 
  ]; 
   
+
  self.addEventListener('install', function(e) { 
    e.waitUntil( 
      caches.open(cacheName).then(function(cache) { 
@@ -27,3 +28,29 @@ var cacheName = 'cache';
      }) 
    ); 
  });
+
+const CACHE = "cache-offline";
+
+importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
+
+self.addEventListener("install", (event) => {
+
+  if (event.data && event.data.type === "SKIP_WAITING") {
+
+    self.skipWaiting();
+
+  }
+
+});
+
+workbox.routing.registerRoute(
+
+  new RegExp('/*'),
+
+  new workbox.strategies.StaleWhileRevalidate({
+
+    cacheName: CACHE
+
+  })
+
+);
