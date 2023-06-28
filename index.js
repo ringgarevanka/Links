@@ -3,7 +3,7 @@ export const main = [{
    profilepicture: "https://avatars.githubusercontent.com/u/99320495",
    name: "Ringga Revanka",
    username: "@ringgarevanka",
-   description: "yo what's up bro",
+   description: "Hello 👋 (This Page is Under Development)",
    hashtag: "#",
 }, ];
 
