@@ -16,9 +16,9 @@ function addmain(profilepicture, name, username, description, hashtag) {
     <div id="username">
       ${username}
     </div>
-    <div id="description">
+    <-- <div id="description">
       ${description}
-    </div>
+    </div> -->
     <div class="links" id="links"></div>
     <div id="hashtag">
       ${hashtag}
