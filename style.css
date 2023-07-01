@@ -63,18 +63,6 @@ body {
     text-decoration: none;
 }
 
-/* #description {
-     color: var(--accentColor); 
-     font-size: 6px; 
-     font-weight: bold; 
-     line-height: 0.80; 
-     display: block; 
-     font-family: var(--font1); 
-     width: 100%; 
-     text-align: center; 
-     text-decoration: none;
-} */
-
 #links {
     max-width: 675px;
     width: auto;
