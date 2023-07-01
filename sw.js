@@ -1,4 +1,4 @@
-var cacheName = 'cache'; 
+var cacheName = 'cache-offline'; 
  var filesToCache = [ 
    '/',
    '/index.html',
@@ -6,8 +6,9 @@ var cacheName = 'cache';
    '/main-modules.js',
    '/style.css',
    '/script.js',
-   '/minicache.js',
-   '/manifest.webmanifest',
+   '/ServiceWorker.js',
+   '/sw.js',
+   '/manifest.json',
    '/LICENSE',
    '/README.md', 
  ]; 
