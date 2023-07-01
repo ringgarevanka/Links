@@ -53,7 +53,7 @@ body {
 
 #username {
     color: var(--accentColor);
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: bold;
     line-height: 0.80;
     display: block;
@@ -65,14 +65,14 @@ body {
 
 #description {
     color: var(--accentColor);
-    font-size: 1rem;
+    font-size: 0.4rem;
     line-height: 0.50;
     display: block;
     font-family: var(--font1);
     width: 100%;
     text-align: center;
     text-decoration: none;
-    margin: 20px auto;
+    margin: 20px bottom;
 }
 
 #links {
