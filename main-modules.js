@@ -5,7 +5,7 @@ import {
 
 const mainContainer = document.getElementById("main");
 
-function addmain(profilepicture, name, username, description, hashtag) {
+function addmain(profilepicture, name, username, hashtag) {
    return `
     <a id="profilePicture">
       <img src="${profilepicture}">
@@ -16,9 +16,6 @@ function addmain(profilepicture, name, username, description, hashtag) {
     <div id="username">
       ${username}
     </div>
-    /* <div id="description">
-      ${description}
-    </div> */
     <div class="links" id="links"></div>
     <div id="hashtag">
       ${hashtag}
@@ -32,10 +29,9 @@ main.forEach((ele) => {
    let profilepicture = ele.profilepicture;
    let name = ele.name;
    let username = ele.username;
-   let description= ele.description
    let hashtag = ele.hashtag;
 
-   allmain += addmain(profilepicture, name, username, description, hashtag);
+   allmain += addmain(profilepicture, name, username, hashtag);
 });
 
 mainContainer.innerHTML = allmain;
