@@ -54,7 +54,19 @@
   
  
 +css
-
+//1
+/* #description { 
+      color: var(--accentColor);  
+      font-size: 6px;  
+      font-weight: bold;  
+      line-height: 0.80;  
+      display: block;  
+      font-family: var(--font1);  
+      width: 100%;  
+      text-align: center;  
+      text-decoration: none; 
+ } */ 
+//2
 @keyframes animStar {
     from {
         transform: translateY(0px);
