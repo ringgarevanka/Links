@@ -63,7 +63,7 @@ body {
     text-decoration: none;
 }
 
-#description {
+/* #description {
      color: var(--accentColor); 
      font-size: 6px; 
      font-weight: bold; 
@@ -73,7 +73,7 @@ body {
      width: 100%; 
      text-align: center; 
      text-decoration: none;
-}
+} */
 
 #links {
     max-width: 675px;
